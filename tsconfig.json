@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "types": ["node"],
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": "/",
+    "outDir": "./output",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/db/*": ["./src/db/*"],
+      "@/router/*": ["./src/router/*"]
+    },
+    "declaration": true, // 是否生成声明文件
+    "declarationDir": "dist/type", // 声明文件打包的位置
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "exclude": ["node_modules", "dist"]
+}

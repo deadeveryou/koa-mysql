@@ -1,0 +1,36 @@
+{
+  "name": "koa-mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deadeveryou/koa-mysql.git",
+  "author": "qieguo <qieguo@dtstack.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src/ -e ts --exec ts-node ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-json": "^2.0.23",
+    "@types/koa-router": "^7.4.8",
+    "dotenv": "^16.4.5",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^13.0.1",
+    "koa2-cors": "^2.0.6",
+    "module-alias": "^2.2.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5",
+    "sequelize-typescript": "^2.1.6",
+    "vite": "^5.4.10"
+  },
+  "devDependencies": {
+    "@types/koa2-cors": "^2.0.5",
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}
